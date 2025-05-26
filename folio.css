@@ -86,7 +86,7 @@ ul {
 
 .intromain {
     color: green;
-    height: 75vh;
+    height: 100%;
     margin-top: 50px;
     width: 100%;
     gap: 10px;
@@ -154,7 +154,7 @@ button {
 .skillmain,
 .contactdiv {
     margin: 50px 0px;
-    height: 60vh;
+    height: 100%;
     text-align: center;
 
 }

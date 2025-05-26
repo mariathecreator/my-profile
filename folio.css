@@ -138,15 +138,15 @@ p {
 button {
     color: green;
     font-weight: light;
-    font-size: larger;
+    font-size: medium;
     background-color: transparent;
-    margin: auto;
+    margin: 2% 40%;
     border-radius: 5px;
     border-style: none;
-    /*box-shadow: 0px 1px 0px rgb(87, 102, 107);*/
+    box-shadow: 0px 0px 10px 2px grey;
+    ;
     padding: 0 15px;
-    border: 2px solid green;
-
+    text-align: center;
 }
 
 .prodiv,
@@ -158,8 +158,12 @@ button {
 
 }
 
-.skillist img {
-    width: 50px;
+.skillist {
+    margin-top: 50px;
+
+    img {
+        width: 50px;
+    }
 }
 
 hr {
@@ -186,7 +190,7 @@ hr {
     flex-direction: column;
     width: 50%;
     height: 250px;
-    text-align: left;
+    text-align: justify;
 
     .potent1 {
         width: 70%;
@@ -251,9 +255,12 @@ input {
     background-color: rgb(207, 207, 210);
 }
 
-footer {
-    background-color: transparent;
+.footer {
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px grey;
     height: 100px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .contactlinks {
